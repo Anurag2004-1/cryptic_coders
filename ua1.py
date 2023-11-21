@@ -12,12 +12,8 @@ def get_user_input():
     return adhar_id, voter_id
 
 def check_aadhar_voter_match(adhar_id, voter_id, dataset):
-    # Check if the provided Aadhar ID exists in the dataset
     if adhar_id in dataset['aadhar_id'].values:
-        # If Aadhar ID exists, get the corresponding row
         row = dataset[dataset['aadhar_id'] == adhar_id]
-
-        # Check if the provided Voter ID matches the Voter ID in the corresponding row
         if voter_id == row['voter_id'].values[0]:
              ua2()
         else:
