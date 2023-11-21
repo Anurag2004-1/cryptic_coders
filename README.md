@@ -1,1 +1,1 @@
-# cryptic_coders
+We are cryptic Coders, our solution focus on key aspects: privacy of voters data, end-to-end encryption of votes, user friendly interface for voting, AI&ML based security features to reduce forced voting and vote temporing, biometric features for voter verification purpose.
