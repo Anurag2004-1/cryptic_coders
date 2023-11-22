@@ -3,7 +3,7 @@ from pathlib import Path
 
 def vote():
     print("Welcome to the Voting System!")
-    print("You have 5 options to vote for. Please vote for only one political party.")
+    
 
     # Check if the voting record file exists, if not, create it
     voting_record_file = Path("voting_record.xlsx")
